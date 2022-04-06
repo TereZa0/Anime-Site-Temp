@@ -1,0 +1,90 @@
+.btn-general-bone {
+    border: 2.2px solid white;
+    background-color: transparent;
+    border-radius: 9px;
+    padding: 5px;
+    color: white;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.btn-general-bone:hover {
+    border-color: transparent;
+    background-color: white;
+    color: black !important;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.btn-general-bone:active, .btn-general-bone:focus{
+    border-color: transparent;
+    background-color: white;
+    color: black !important;
+    font-size: 18px;
+}
+
+.btn-general-bone-black {
+    border: 2.2px solid black;
+    background-color: transparent;
+    border-radius: 9px;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.btn-general-bone-black:hover {
+    border-color: transparent;
+    background-color: black;
+    color: transition !important;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.btn-general-color {
+    border: none;
+    background-color: transparent;
+    border-radius: 0px;
+    color: gray;
+    text-align: center;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.btn-general-color:hover {
+    border: none;
+    background-color: transparent;
+    border-radius: 0px;
+    color: white;
+    font-wight: bold;
+    padding: 5px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.btn-general-color-black {
+    border: none;
+    background-color: transparent;
+    border-radius: 0px;
+    color: gray;
+    text-align: center;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+.btn-general-color-black:hover {
+    border: none;
+    background-color: transparent;
+    border-radius: 0px;
+    font-wight: bold;
+    color: black;
+    padding: 5px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+
+body {
+    background-color: black;
+    color: white;
+}
